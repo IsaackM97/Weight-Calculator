@@ -1,0 +1,79 @@
+/* Custom Stylesheet */
+
+
+
+body{
+
+    background-color:whitesmoke;
+
+
+}
+
+
+
+
+
+h1{
+
+    color: purple;
+    text-align: center;
+}
+
+h2{
+
+    color:gold;
+    text-align: center;
+
+}
+
+h3{
+
+    color:purple;
+    text-align: center;
+
+}
+
+h4{
+
+    color:gold;
+    text-align: center;
+
+}
+
+h5{
+
+    color:purple;
+    text-align: center;
+
+}
+
+footer {
+
+    padding: 25px;
+
+}
+
+p1{
+    color:purple;
+    text-align: center;
+    align-content: center;
+}
+
+p2{
+    color:gold;
+    text-align: center;
+    align-content: center;
+}
+
+p3{
+    color:purple;
+    text-align: center;
+    align-content: center;
+}
+
+.col-12{
+    
+    align-content: center;
+}
+
+

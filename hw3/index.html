@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <title>hw3</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/mycss/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+
+
+    <body>
+
+        <div class="container">
+            <div class="section">
+                <h1>Converting Pounds into Kilograms</h1>
+                <div class="col-12 offset-5">
+                    <div class="row justify-content-center"></div>
+
+
+                    <p1>Weight to Kilograms:</p1>
+
+                    <p>
+                        <label>Weight</label>
+                        <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+                    </p>
+                    <p1>Kilograms: <span id="outputKilograms"></span></p1>
+
+                   
+                </div>
+            </div>
+            <div class="section">
+                <h2>Converting Pounds into Ounces</h2>
+
+                <div class="col-12 offset-5">
+                    <div class="row justify-content-center"></div>
+                    <p2>Weight to Ounces:</p2>
+
+                    <p>
+                        <label>Weight</label>
+                        <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter2(this.value)" onchange="weightConverter2(this.value)">
+                    </p>
+                    <p2>Ounces: <span id="outputounces"></span></p2>
+
+                    
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Converting Pounds into Stones</h3>
+
+                <div class="col-12 offset-5">
+
+                    <p3>Weight to Stone:</p3>
+
+                    <p>
+                        <label>Weight</label>
+                        <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter3(this.value)" onchange="weightConverter3(this.value)">
+                    </p>
+                    <p3>Stone: <span id="outputstones"></span></p3>
+
+                  
+                </div>
+            </div>
+
+        </div>
+
+<!--
+        <script src="js/hw3.js"></script>
+         <script type="text/javascript">
+             var userip;
+        </script>
+             
+        <script type="application/javascript" src="https://l2.io/ip.js?var=userip"></script>
+        <script type="text/javascript">
+
+            document.write("Your IP is:", userip);
+
+        </script>
+-->
+        <script src="js/hw3.js"></script>
+    </body>
+</html>
